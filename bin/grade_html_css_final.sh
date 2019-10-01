@@ -6,6 +6,9 @@ errcho() {
   >&2 echo "$@";
 }
 
+[ ! -d "$output_dir" ] && mkdir -p "$output_dir"
+[ ! -d "$tmpdir" ] && mkdir -p "$tmpdir"
+
 while [[ $# -gt 0 ]]
   do
     key="$1"
