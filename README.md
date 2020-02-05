@@ -62,7 +62,8 @@ Definitions:
 8.  execfile = variable to execute reset.sh to empty output_dir and tmp folders after grading.
 9.  screenshots = Example demonstrations.
 10. grade.env = Docker environment variables.
-10  Dockerfile,Dockerfile1 = Use to build docker image for student-grading-utils.
+10  Dockerfile = Use to build docker image for student-grading-utils.
+
 ```
   
 
